@@ -38,6 +38,8 @@ module.exports = {
         'background-card': '#05030A',
         'background-button-nft': '#1D4FFE',
         'gray-area-favorite': '#05030A',
+        'gray-card-collectors': 'rgba(255, 255, 255, 0.01)',
+        'gray-border-card-collectors': 'rgba(255, 255, 255, 0.04)',
       },
       fontFamily: {
         inter: 'var(--font-inter)',
@@ -45,7 +47,8 @@ module.exports = {
       },
       maxWidth: {
         grid: '77.5rem',
-        'card-ntf': '17.4375rem'
+        'card-ntf': '17.4375rem',
+        'card-collectors': '37rem',
       },
       height: {
         'area-image-nft': '14.75rem',
