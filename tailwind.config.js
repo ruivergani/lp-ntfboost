@@ -38,6 +38,9 @@ module.exports = {
       fontFamily: {
         inter: 'var(--font-inter)',
         poppins: 'var(--font-poppins)',
+      },
+      maxWidth: {
+        grid: '77.5rem',
       }
     },
   },
