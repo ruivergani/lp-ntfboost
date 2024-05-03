@@ -34,6 +34,10 @@ module.exports = {
       colors: {
         'blue-primary': '#1D4FFE',
         'green-primary': '#4BCE97',
+        'green-border-card': '#131317',
+        'background-card': '#05030A',
+        'background-button-nft': '#1D4FFE',
+        'gray-area-favorite': '#05030A',
       },
       fontFamily: {
         inter: 'var(--font-inter)',
@@ -41,6 +45,10 @@ module.exports = {
       },
       maxWidth: {
         grid: '77.5rem',
+        'card-ntf': '17.4375rem'
+      },
+      height: {
+        'area-image-nft': '14.75rem',
       }
     },
   },
