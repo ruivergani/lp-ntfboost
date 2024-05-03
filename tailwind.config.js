@@ -54,6 +54,11 @@ module.exports = {
         'area-image-nft': '14.75rem',
       }
     },
+    screens: {
+      '@tablet': '640px',
+      '@laptop': '1024px',
+      '@desktop': '1280px',
+    },
   },
   plugins: [require("tailwindcss-animate")],
 }
