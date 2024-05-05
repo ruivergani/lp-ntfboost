@@ -15,7 +15,7 @@ const itemsNav = [
 
 export default function Header() {
   return (
-    <header className="py-6">
+    <header className="py-6 @laptop:py-5">
       <ContainerGrid className='flex items-center justify-between'>
         <Image
           src={Logo}
@@ -36,7 +36,7 @@ export default function Header() {
               ))
             }
           </nav>
-          <button className="flex items-center justify-center bg-blue-primary px-6 py-3 text-white rounded-full hover:brightness-90 transition ease-linear font-inter">
+          <button className="flex items-center justify-center bg-blue-primary px-6 py-3 text-white rounded-full hover:brightness-90 transition-all ease-linear font-inter font-medium">
             Connect Wallet
           </button>
         </div>
