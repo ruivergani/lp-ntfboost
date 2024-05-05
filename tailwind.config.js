@@ -40,6 +40,8 @@ module.exports = {
         'gray-area-favorite': '#05030A',
         'gray-card-collectors': 'rgba(255, 255, 255, 0.01)',
         'gray-border-card-collectors': 'rgba(255, 255, 255, 0.04)',
+        'menu-button-bg': 'rgba(255, 255, 255, 0.03)',
+        'menu-button-border': 'rgba(255, 255, 255, 0.06)',
       },
       fontFamily: {
         inter: 'var(--font-inter)',
@@ -49,6 +51,7 @@ module.exports = {
         grid: '77.5rem',
         'card-ntf': '17.4375rem',
         'card-collectors': '37rem',
+        'nav-header': '48.3125rem',
       },
       height: {
         'area-image-nft': '14.75rem',
