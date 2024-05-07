@@ -2,12 +2,12 @@ import Image from 'next/image'
 import IconVerify from '@/assets/verify.svg'
 import IconEtherum from '@/assets/icon-eth.svg'
 
-export default function CardCollectors({thumbnail, name, value}) {
+export default function CardCollectors({thumbnail, name, value, counter}) {
   return (
     <div className='w-full max-w-card-collectors rounded-[100px] flex items-center justify-between bg-gray-card-collectors border border-gray-border-card-collectors py-4 px-6'>
-      <div className='flex items-center gap-6'>
-        <strong className='font-semibold'>1</strong>
-        <div className='flex items-center gap-4'>
+      <div className='flex items-center @desktop:gap-6 gap-4'>
+        <strong className='font-semibold'>{counter}</strong>
+        <div className='flex items-center gap-4 '>
           <div className='relative w-10 h-10'>
             <div className='w-full h-full rounded-full overflow-hidden flex items-center justify-center'>
               <Image
@@ -24,7 +24,7 @@ export default function CardCollectors({thumbnail, name, value}) {
           </div>
           <div>
             <h4 className='text-base text-white font-semibold'>{name}</h4>
-            <p className='text-sm text-white opacity-70 flex items-center'>
+            <p className='text-sm text-white opacity-70 flex @desktop:items-center flex-col @desktop:flex-row items-start'>
               Minimum price
               <span className='font-semibold space-x-2 text-white flex items-center gap-1 ml-1'>
                 <Image

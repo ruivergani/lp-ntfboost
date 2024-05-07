@@ -42,6 +42,7 @@ module.exports = {
         'gray-border-card-collectors': 'rgba(255, 255, 255, 0.04)',
         'menu-button-bg': 'rgba(255, 255, 255, 0.03)',
         'menu-button-border': 'rgba(255, 255, 255, 0.06)',
+        'gray-hover-btn-slide': '#07050F',
       },
       fontFamily: {
         inter: 'var(--font-inter)',
