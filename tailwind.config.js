@@ -58,7 +58,8 @@ module.exports = {
         'area-image-nft': '14.75rem',
       },
       backgroundImage: {
-        'hero-pattern': 'url("../assets/bg-hero.svg")'
+        'hero-pattern': 'url("../assets/bg-hero.svg")',
+        'banner': 'url(../assets/bg-banner.svg)'
       }
     },
     screens: {
