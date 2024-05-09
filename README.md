@@ -3,25 +3,25 @@
 </p>
 
 <p align="center" margin-top="25px" >
-  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/ruivergani/ignite-timer">
+  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/ruivergani/lp-ntfboost">
 
-  <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/ruivergani/ignite-timer">
+  <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/ruivergani/lp-ntfboost">
 
-  <img alt="Repository Size" src="https://img.shields.io/github/repo-size/ruivergani/ignite-timer">
+  <img alt="Repository Size" src="https://img.shields.io/github/repo-size/ruivergani/lp-ntfboost">
 
-  <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/ruivergani/ignite-timer">
+  <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/ruivergani/lp-ntfboost">
 
-  <img alt="Repository issues" src="https://img.shields.io/github/issues/ruivergani/ignite-timer">
+  <img alt="Repository issues" src="https://img.shields.io/github/issues/ruivergani/lp-ntfboost">
 
-  <img alt="GitHub" src="https://img.shields.io/github/license/ruivergani/ignite-timer">
+  <img alt="GitHub" src="https://img.shields.io/github/license/ruivergani/lp-ntfboost">
 </p>
 
-This project was part of a ReactJS and TypeScript course to practice front-end development concepts.
+Powered by NextJS, Tailwind CSS, and the dynamic Shadcn/UI components library, this page represents the epitome of cutting-edge technology and design. 💻✨ With seamless navigation, eye-catching visuals, and responsive elements, we've crafted an immersive user experience that captivates from the first click. 💡
 ___
 
 ## 💻 About
 
-This is a challenging project where you will have the opportunity to develop a timer Pomodoro application using React and TypeScript.
+This project's aim was to practice NextJS concepts, and also TailwindCSS, improving the performance and efficiency of web development projects.
 
 ___
 
@@ -29,7 +29,9 @@ ___
 The page in desktop format is seen in the image below:
 \
 \
-![Screenshot 2024-04-04 at 11 08 46](https://github.com/ruivergani/ignite-timer/assets/70537459/4c6b2b18-f6e9-4d02-918b-87eaf14a235a)
+![Screenshot 2024-05-09 at 16 20 18](https://github.com/ruivergani/lp-ntfboost/assets/70537459/0bc62556-16e5-46e7-b1b2-3bc065f48b41)
+![Screenshot 2024-05-08 at 14 39 46](https://github.com/ruivergani/lp-ntfboost/assets/70537459/e771d0e1-d9d9-4e78-84a2-5dc08a842556)
+
 
 ___
 
@@ -37,16 +39,14 @@ ___
 
 The following technologies were employed in the creation of this project:
 
-- States
-- ContextAPI
-- LocalStorage
-- Immutability of the state
+- NextJS
+- TailwindCSS
+- Shadcn/UI
+- SwipperJS 
 - Lists and keys in ReactJS
 - Properties
 - Componentization
-- Array manipulation methods such as map, filter, and even reduce
-- Save data on localStorage
-- Immer, Date FNS, ZOD, React Hook Form
+- Array manipulation methods such as maps.
 - [Yarn](https://vitejs.dev/)
 - [Vite JS](https://vitejs.dev/)
 - [React JS](https://reactjs.org/)
@@ -61,9 +61,10 @@ ___
 
 ## Functionalities
 
-- Add a new Pomodoro task to the list.
-- Check the history of tasks done.
-- Start timer or Pause Timer.
+- Responsive Design
+- Use of NextJS
+- Use of Shadcn/UI
+- Use of Tailwind CSS
   
 ___
 
@@ -72,7 +73,7 @@ ___
 Clone the project to the desired location on your computer.
 
 ```bash
-$ git clone git@github.com:ruivergani/ignite-timer.git
+$ git clone git@github.com:ruivergani/lp-ntfboost.git
 ```
 ___
 
@@ -80,7 +81,7 @@ ___
 ```bash
 
 # Navigate to the directory
-$ cd ignite-timer
+$ cd lp-ntfboost
 
 # Install the necessary dependencies
 $ yarn
