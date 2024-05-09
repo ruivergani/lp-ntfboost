@@ -1,27 +1,35 @@
 <p align="center">
-  <h1 align="center"><a href="https://ruivergani.com/">Software Developer Portfolio</a></h1>
+  <h1 align="center"><a href="">Landing Page NFT - Next.js and Tailwind CSS</a></h1>
 </p>
 
 <p align="center" margin-top="25px" >
-  <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/ruivergani/portfolio" />
+  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/ruivergani/ignite-timer">
 
-  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/ruivergani/portfolio" />
+  <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/ruivergani/ignite-timer">
+
+  <img alt="Repository Size" src="https://img.shields.io/github/repo-size/ruivergani/ignite-timer">
+
+  <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/ruivergani/ignite-timer">
+
+  <img alt="Repository issues" src="https://img.shields.io/github/issues/ruivergani/ignite-timer">
+
+  <img alt="GitHub" src="https://img.shields.io/github/license/ruivergani/ignite-timer">
 </p>
 
-Welcome to my Front-End Developer Portfolio repository! Here, you'll find a showcase of my skills, projects, and experiences in the world of front-end web development.
+This project was part of a ReactJS and TypeScript course to practice front-end development concepts.
 ___
 
-## 💻 About 
+## 💻 About
 
-I'm passionate about crafting immersive and user-centric web experiences. With a strong foundation in React JS, HTML, CSS, and JavaScript, I strive to create visually appealing and highly functional websites. My journey in web development has been a combination of learning, experimentation, and pushing the boundaries of creativity.
+This is a challenging project where you will have the opportunity to develop a timer Pomodoro application using React and TypeScript.
 
 ___
 
 ## 🎨 Layout
 The page in desktop format is seen in the image below:
-
-
-![linkedin_post](https://user-images.githubusercontent.com/70537459/222933593-cbb7377e-6d0b-4f52-8d12-a19ae6452fff.png)
+\
+\
+![Screenshot 2024-04-04 at 11 08 46](https://github.com/ruivergani/ignite-timer/assets/70537459/4c6b2b18-f6e9-4d02-918b-87eaf14a235a)
 
 ___
 
@@ -29,16 +37,34 @@ ___
 
 The following technologies were employed in the creation of this project:
 
-- [GULP](https://gulpjs.com/)
-- [Swipper JS](https://swiperjs.com/)
-- [WordPress](https://wordpress.org/)
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [PHP](https://www.php.net/)
-- [SASS](https://sass-lang.com/)
-- HTML and CSS
-- Responsive to all sizes of screens
-- Multi-language website
+- States
+- ContextAPI
+- LocalStorage
+- Immutability of the state
+- Lists and keys in ReactJS
+- Properties
+- Componentization
+- Array manipulation methods such as map, filter, and even reduce
+- Save data on localStorage
+- Immer, Date FNS, ZOD, React Hook Form
+- [Yarn](https://vitejs.dev/)
+- [Vite JS](https://vitejs.dev/)
+- [React JS](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Styled Components](https://styled-components.com/)
+- [Phosphor React](https://phosphoricons.com/)
+- [Visual Studio Code](https://code.visualstudio.com/) with [editorConfig][vceditconfig] and [esLint][vceslint]
+- [Figma](https://www.figma.com/file/QngNpEvtTk7XN61PObI3Ro/Ignite-Feed?type=design&node-id=26%3A12&mode=design&t=GL7dPs6g1RYCtsB6-1) detailed Figma file for the project;
 
+
+___
+
+## Functionalities
+
+- Add a new Pomodoro task to the list.
+- Check the history of tasks done.
+- Start timer or Pause Timer.
+  
 ___
 
 ## 🚀 How to use
@@ -46,7 +72,7 @@ ___
 Clone the project to the desired location on your computer.
 
 ```bash
-$ git clone git@github.com:ruivergani/portfolio.git
+$ git clone git@github.com:ruivergani/ignite-timer.git
 ```
 ___
 
@@ -54,23 +80,28 @@ ___
 ```bash
 
 # Navigate to the directory
-$ cd portfolio
+$ cd ignite-timer
 
 # Install the necessary dependencies
-$ sudo yarn
+$ yarn
 
-# Run the GULP command
-$ gulp
+# Run the project
+$ yarn dev
 
-# The terminal will display the local address where the application is running:
+# The terminal will display the local address where the application is running (something like this):
+
   http://localhost:3000/
 
 ```
+___
+
+[Check the final result here]()
 
 ___
 
-[Check the final result here](https://ruivergani.com/)
+## License
 
+This project is licensed under the [MIT License](https://opensource.org/license/mit/).
 ___
 
 Made with ❤️ by Rui Vergani Neto 👋🏽 [Get in Touch!](https://www.linkedin.com/in/ruivergani/)
