@@ -21,7 +21,6 @@ export default function TitleSection({ subtitle, title }) {
       scrollTrigger: {
         trigger: title,
         start: "top-=400 center",
-        markers: true,
       }
     })
   }, []);

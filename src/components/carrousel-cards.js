@@ -1,4 +1,4 @@
-import { useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation } from 'swiper/modules'
 import 'swiper/css'
@@ -7,10 +7,34 @@ import CardNFT from "@/components/card-nft"
 import Arrow from '@/assets/arrow.svg'
 import Image from 'next/image'
 
+// Import GSAP library
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
+
 export default function CarrouselCards({data}) {
   const swiperRef = useRef(); // referenciar o slide
+  const areaSlideRef = useRef(null)
+
+  useEffect(() => {
+    const areaSlide = areaSlideRef.current;
+    gsap.fromTo(areaSlide, {
+      opacity: 0,
+      y: 50,
+    }, {
+      opacity: 1,
+      y: 0,
+      ease: 'power3.out',
+      duration: 2,
+      scrollTrigger: {
+        trigger: areaSlide,
+        start: "top-=400 center",
+      }
+    })
+  }, [])
+
   return (
-    <div className='w-full relative'>
+    <div className='w-full relative' ref={areaSlideRef}>
       <button className='hidden @desktop:flex w-12 h-12 rounded-full bg-blue-primary hover:bg-gray-hover-btn-slide border border-white border-opacity-5 flex items-center justify-center z-10 absolute top-1/2 -mt-6 -left-6'
         onClick={() => {
           swiperRef.current?.slidePrev(); // render null first than after create the swiper (that's why need ?)
