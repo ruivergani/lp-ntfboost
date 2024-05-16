@@ -3,7 +3,6 @@
 import CardsLeft from '@/assets/cards-left.png'
 import CardsRight from '@/assets/cards-right.png'
 import Image from 'next/image'
-
 import { useEffect, useRef } from "react"
 
 // Import GSAP library
